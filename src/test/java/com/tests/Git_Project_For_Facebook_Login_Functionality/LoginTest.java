@@ -35,6 +35,8 @@ public static WebDriver driver;
 		driver.findElement(By.name("login")).click();
 		
 		System.out.println("Loginning into facebook account");
+		System.out.println("Succesfully login");
+		
 		}
 	
 	@AfterTest
